@@ -1,0 +1,23 @@
+.row{
+  padding: 10px;
+}
+.index-container{
+  margin: 100px 50px 50px 50px;
+}
+.row-index{
+  padding: 20px;  
+}
+.form-control{
+  max-width: 550px;
+  border: 2px solid black;  
+}
+.btn{
+  border: 2px solid black;
+  border-radius: 10px;
+  max-width: 100px;
+  box-shadow: 2cm;
+}
+.row{
+  display: flex;
+  justify-items: center;
+}
