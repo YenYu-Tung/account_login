@@ -1,18 +1,21 @@
-<form action="/" method="post">
+<form action="/login" method="POST" class="form">
   <div class="index-container justify-content-center">
-    <div class="row " style="text-align: center;">
+    <div class="row" style="text-align: center;">
       <h3>Account Login</h3>
     </div>
     <div class="row row-index justify-content-center">
-      <label for="inputEmail" class="visually-hidden">Email</label>
-      <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+      <label for="Email" class="visually-hidden">Email</label>
+      <input type="text" class="form-control" id="InputEmail" placeholder="Email" name="Email">
     </div>
     <div class="row row-index justify-content-center">
-      <label for="inputPassword" class="visually-hidden">Password</label>
-      <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+      <label for="Password" class="visually-hidden">Password</label>
+      <input type="password" class="form-control" id="InputPassword" placeholder="Password" name="Password">
     </div>
     <div class="row row-index justify-content-center">
       <button type="submit" class="btn btn-outline-dark">Sign in</button>
+    </div>
+    <div class="row row-index" style="text-align: center;">
+      <h6>{{response}}</h6>
     </div>
   </div>
 </form>

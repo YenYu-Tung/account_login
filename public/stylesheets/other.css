@@ -21,3 +21,10 @@
   display: flex;
   justify-items: center;
 }
+.success{
+  margin-top: 100px;
+}
+h6{
+  color: rgb(200, 10, 10);
+}
+
