@@ -1,3 +1,8 @@
 <div class="success" style="text-align: center;">
-  <h1>Welcome back, {{firstname}}!</h1>
+  <h1>Welcome back, {{firstName}}!</h1>
+  <div class="logOutbtn" style="display: inline-block;">
+    <form action="/logout" method="get">
+      <button type="submit" class="btn btn-outline-danger">Log Out</button>
+    </form>
+  </div>  
 </div>

@@ -16,6 +16,7 @@
   border-radius: 8px;
   max-width: 100px;
   box-shadow: 0px 0px 4px 0px gray;
+  font-weight: bold;
 }
 .row{
   display: flex;
@@ -26,5 +27,8 @@
 }
 h6{
   color: rgb(200, 10, 10);
+}
+.logOutbtn{
+  margin-top: 80px;
 }
 
