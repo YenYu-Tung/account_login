@@ -28,7 +28,6 @@ app.post('/login', (req, res) => {
     res.cookie('firstName', response, { path: '/cookie', signed: true, maxAge: 60000 })
     return res.redirect('/cookie')   
   }else {
-    console.error(response)
     res.render('index', {response})
   }
 })

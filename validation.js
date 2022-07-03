@@ -9,7 +9,7 @@ function validation(email, password){
       return [false, 'Invalid Password! Please try again.']
     }
   }else {
-    return [false, 'Username not found! Please try again.']
+    return [false, 'Email not found! Please try again.']
   }
 }
 
